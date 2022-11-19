@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Reportados</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Entrar</string>
+    <string name="registro">Registro</string>
+    <string name="anonimo">Anonimo</string>
+    <string name="title_activity_reportes_cercanos">Map</string>
+    <string name="event_type">Tipo de suceso</string>
+    <string name="rdbRobo">Robo</string>
+    <string name="rdbSuceso">Suceso</string>
+    <string name="rdbAccidente">Accidente</string>
+    <string name="rdbPerdida">Perdida</string>
+    <string name="rdbAvistamiento">Avistamiento</string>
+    <string name="oject">¿Que?</string>
+    <string name="searched_words">Palaras buscadas</string>
+    <string name="add">Agregar</string>
+    <string name="info">Información</string>
+    <string name="desciption">Describa aquí la situación</string>
+    <string name="reward">Recompenza</string>
+    <string name="report">Reportar</string>
+    <string name="retype_password">Repetir Contraseña</string>
+    <string name="register">Crear</string>
+</resources>

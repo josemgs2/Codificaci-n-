@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvContacto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".70"
+                android:hint="@string/searched_words" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".30"
+                android:text="@string/add" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:alignContent="stretch"
+            app:alignItems="stretch"
+            app:flexWrap="wrap">
+
+            <TextView
+                android:id="@+id/btnCarro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carro"
+                android:textSize="@dimen/text_label_cloud_size"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/btnMascota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bolso"
+                android:textSize="@dimen/text_label_cloud_size"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/btnAnimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Animal"
+                android:textSize="@dimen/text_label_cloud_size"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/btnMotocicleta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motocicleta"
+                android:textSize="@dimen/text_label_cloud_size"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/btnAnillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anillo"
+                android:textSize="@dimen/text_label_cloud_size"
+                android:layout_margin="5dp" />
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v7.widget.CardView>
